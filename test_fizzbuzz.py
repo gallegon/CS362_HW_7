@@ -26,4 +26,5 @@ class TestFizzbuzz(unittest.TestCase):
 
 			self.assertEqual(actualValue, expectedValue)
 
-#	def test_fizzbuzz_rand(self):
+if __name__ == '__main__':
+	unittest.main()
